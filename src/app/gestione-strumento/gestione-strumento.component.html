@@ -1,0 +1,21 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>MARCA</th>
+            <th>MODELLO</th>
+            <th>CATEGORIA</th>
+            <th>PREZZO</th>
+        </tr>  
+    </thead>
+    <tbody>
+        <tr *ngFor="let s of strumenti">
+            <td>{{s.id}}</td>
+            <td>{{s.marca}}</td>
+            <td>{{s.modello}}</td>
+            <td>{{s.categoria}}</td>
+            <td>{{s.prezzo}}</td>
+        </tr> 
+    </tbody>
+</table>
+
